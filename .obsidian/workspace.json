@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Commands.md",
+                "file": "CPP/GNU Make/Make.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Commands.md",
+                "file": "CPP/GNU Make/Make.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Commands.md",
+                "file": "CPP/GNU Make/Make.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Commands.md"
+                "file": "CPP/GNU Make/Make.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "5f9315d204eee2a9",
   "lastOpenFiles": [
-    "Docker/All.md",
     "Git/Commands.md",
+    "CPP/GNU Make/Make.md",
+    "CPP/GNU Make",
+    "Docker/All.md",
     "Git",
     "dotnet/DevExpress.md",
     "Docker",

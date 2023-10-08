@@ -78,14 +78,16 @@
 - ...or as follows if you have git configured appropriately:
 
 - git push -f
-- Create a branch with current changes  
+
+## Create a branch with current changes  
     git checkout -b <branch_name>
 - git add -u
 - git commit -m "jira-id message"
 - git push --set-upstream origin <branch_name>
-- Create a branch from another commit  
+
+## Create a branch from another commit  
     git branch <branch name> <commit hash>
-- Cherry-pick from one repo to another  
+## Cherry-pick from one repo to another  
     --> Below example is for cherry picking from "flexcore" to "ssoms"
 - git fetch [git@git.flextrade.com](mailto:git@git.flextrade.com):flexcore/flexcore.git master && git cherry-pick af31a16e2d4a4b40bdc6fd88d98579fce29e20a1
 - Once cherry pick is done, "git add" is run automatically so you won't see changes in "git status".
