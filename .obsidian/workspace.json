@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms DS/Reading.md",
+                "file": "Docker/All.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms DS/Reading.md",
+                "file": "Docker/All.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms DS/Reading.md",
+                "file": "Docker/All.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms DS/Reading.md"
+                "file": "Docker/All.md"
               }
             }
           }
@@ -161,10 +161,15 @@
   },
   "active": "5f9315d204eee2a9",
   "lastOpenFiles": [
-    "CPP/CPP.md",
+    "dotnet/DevExpress.md",
+    "Docker/All.md",
+    "Docker",
     "Design Patterns/Object Oriented Design.md",
-    "CPP",
+    "dotnet/Untitled",
+    "Design Patterns/Bookmarks.md",
     "Algorithms DS/Reading.md",
+    "CPP/CPP.md",
+    "CPP",
     "Architecture/Architecture.md",
     "Design Patterns",
     "Architecture",
