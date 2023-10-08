@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dotnet/General.md",
+                "file": "dotnet/WPF.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dotnet/General.md",
+                "file": "dotnet/WPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dotnet/General.md",
+                "file": "dotnet/WPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dotnet/General.md"
+                "file": "dotnet/WPF.md"
               }
             }
           }
@@ -182,8 +182,10 @@
   "active": "a1bf233613e53083",
   "lastOpenFiles": [
     "dotnet/All.md",
-    "dotnet/General.md",
     "dotnet/CLR.md",
+    "dotnet/WPF.md",
+    "dotnet/Memory.md",
+    "dotnet/General.md",
     "dotnet/Q-Sharp.md",
     "Test GitHub Commits.md",
     "dotnet"
