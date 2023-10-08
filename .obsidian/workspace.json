@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Main.md",
+                "file": "System Design/Main.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6981b58b05c2d661",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VIM/SPF13.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Main.md",
+                "file": "VIM/SPF13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Main.md",
+                "file": "VIM/SPF13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Main.md"
+                "file": "VIM/SPF13.md"
               }
             }
           }
@@ -159,10 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f9315d204eee2a9",
+  "active": "f2a0faf1a46af359",
   "lastOpenFiles": [
-    "Windows/Powershell/Getting Started.md",
+    "System Design/Main.md",
+    "VIM/SPF13.md",
+    "VIM",
     "Python/Main.md",
+    "System Design",
+    "Windows/Powershell/Getting Started.md",
     "Python",
     "CPP/GNU Make/Make.md",
     "Windows/Powershell",
@@ -180,8 +196,6 @@
     "CPP/CPP.md",
     "CPP",
     "Architecture/Architecture.md",
-    "Design Patterns",
-    "Architecture",
     "dotnet/C-Sharp.md",
     "dotnet/All.md",
     "dotnet/How-to.md",
