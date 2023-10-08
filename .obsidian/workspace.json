@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms DS/Reading.md",
-                "mode": "preview",
+                "file": "CPP/CPP.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms DS/Reading.md",
+                "file": "CPP/CPP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms DS/Reading.md",
+                "file": "CPP/CPP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms DS/Reading.md"
+                "file": "CPP/CPP.md"
               }
             }
           }
@@ -161,10 +161,12 @@
   },
   "active": "5f9315d204eee2a9",
   "lastOpenFiles": [
-    "Design Patterns/**Object Oriented Design**.md",
+    "Design Patterns/Object Oriented Design.md",
+    "CPP/CPP.md",
+    "CPP",
+    "Algorithms DS/Reading.md",
     "Architecture/Architecture.md",
     "Design Patterns",
-    "Algorithms DS/Reading.md",
     "Architecture",
     "dotnet/C-Sharp.md",
     "Algorithms DS",
