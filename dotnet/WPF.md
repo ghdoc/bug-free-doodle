@@ -132,21 +132,21 @@
 - StackPanel
 - WrapPanel
 
-- Flowed Text
+## Flowed Text
 
 - FlowDocument
 
-- HTML-Like feature set
+## HTML-Like feature set
 - Reader controls
 
-- Data
+## Data
 
-- DataTemplate
+### DataTemplate
 
 - Defines how a particular type of data should look.
 - Some class has property and another property... which are applied via data template with markup with bindings to apply on the UI
 
-- Deployment
+## Deployment
 
 - Classic MSI
 - ClickOnce (FullTrust needed)
@@ -157,18 +157,18 @@
 - deploy via clickonce 
 
 - Silverlight
-- Designers
+## Designers
 
 - Blend
 - Visual Studio
 
-- Controls #attachedproperty 
+## Controls #attachedproperty 
 
 - Built-in controls  
     System.Windows.Controls
 - System.Windows.Controls.Primitive (to be used as a part of other widgets and not to be used as is)
 
-- Buttons
+## Buttons
 
 - RepeatButton (in primitive)
 - Buttons have a content model that allows anything to be used for the caption. It could be plain text, graphics or data.
@@ -176,7 +176,7 @@
 - Ubiquitous pattern
 - Accelerator key
 
-- Grouping
+## Grouping
 
 - Expander
 - GroupBox
@@ -187,7 +187,7 @@
     <GroupBox.Header>
 - <StackPanel>...
 
-- Text Input
+## Text Input
 
 - WPF has flow document model for text formatting
 - Rich Text Box in WPF has nothing to do with rtf format, but uses FlowDocumentMOdel
@@ -208,12 +208,12 @@
 
 - In Label, you can use data binding syntax to point to the target
 
-- Events (low level control)
+## Events (low level control)
 
 - Tunnelling and Bubbling events follow in pairs
 - Tunnel
 
-- Preview
+## Preview
 
 - PreviewMouseDown
 
@@ -231,7 +231,7 @@
 
 - For Beginners #read:bookmark  
     https://rachel53461.wordpress.com/category/wpf-2/
-- DataGrid
+## DataGrid
 
 - Tabbing from cell to cell does not focus control #read:bookmark  
     https://mtpatel.blogspot.com/2013/05/wpf-datagrid-tabbing-from-cell-to-cell.html
@@ -261,20 +261,20 @@
     https://stackoverflow.com/questions/3734824/how-to-set-the-position-of-column-in-datagrid-wpf
 - Grid lines visibility and thickness  
     <DataGrid GridLinesVisibility="Horizontal">
--         <DataGrid.CellStyle>
--             <Style TargetType="DataGridCell">
--                 <Setter Property="BorderThickness" Value="0,0,3,0"/>
--                 <Setter Property="BorderBrush" Value="Red"/>
--             </Style>
--         </DataGrid.CellStyle>
+         <DataGrid.CellStyle>
+             <Style TargetType="DataGridCell">
+                 <Setter Property="BorderThickness" Value="0,0,3,0"/>
+                 <Setter Property="BorderBrush" Value="Red"/>
+             </Style>
+         </DataGrid.CellStyle>
 - [Copy Paste](https://stackoverflow.com/questions/4118617/wpf-datagrid-pasting) / [Drag Drop](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/advanced/walkthrough-enabling-drag-and-drop-on-a-user-control?view=netframeworkdesktop-4.8)
 
-- Issues
+## Issues
 
 - Menu / window/ Dialog disappears into background (behind the main app)  
     https://support.microsoft.com/en-us/help/2954125/the-wpf-dialog-box-disappears-when-it-displays-a-tooltip-or-drop-down
 
-- How-To
+## How-To
 
 - Add watermark to a textbox  
     https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/how-to-add-a-watermark-to-a-textbox
@@ -298,51 +298,50 @@
     Loaded += OnLoaded;
 - Hooks into win32  
     private void OnLoaded(object sender, RoutedEventArgs e)
-- {
-- HwndSource source = HwndSource.FromHwnd(new WindowInteropHelper(this).Handle);
-- source.AddHook(new HwndSourceHook(WndProc));
+ {
+ HwndSource source = HwndSource.FromHwnd(new WindowInteropHelper(this).Handle);
+ source.AddHook(new HwndSourceHook(WndProc));
 
-- }
-- const int WM_SIZING = 0x214;
-- const int WM_EXITSIZEMOVE = 0x232;
-- private static bool WindowWasResized = false;
-- private static IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
-- {
-- if (msg == WM_SIZING)
-- {
+ }
+ const int WM_SIZING = 0x214;
+ const int WM_EXITSIZEMOVE = 0x232;
+ private static bool WindowWasResized = false;
+ private static IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
+ {
+	 if (msg == WM_SIZING)
+	 {
+		
+		 if (WindowWasResized == false)
+		 {
+		
+		 //    'indicate the the user is resizing and not moving the window
+		 WindowWasResized = true;
+		 }
+	 }
 
-- if (WindowWasResized == false)
-- {
+	 if (msg == WM_EXITSIZEMOVE)
+	 {
+		 // 'check that this is the end of resize and not move operation          
+		 if (WindowWasResized == true)
+		 {
+		
+		 // your stuff to do 
+		 //Console.WriteLine("End");
+		 HwndSource hwndSource = HwndSource.FromHwnd(hwnd);
+		
+		 var window = hwndSource.RootVisual as BasketRFQWindow;
+		
+		 window.ResetSizeToContent();
+		
+		 // 'set it back to false for the next resize/move
+		 WindowWasResized = false;
+		 }
+	 }
+	
+	 return IntPtr.Zero;
+ }
 
-- //    'indicate the the user is resizing and not moving the window
-- WindowWasResized = true;
-- }
-- }
-
-- if (msg == WM_EXITSIZEMOVE)
-- {
-
-- // 'check that this is the end of resize and not move operation          
-- if (WindowWasResized == true)
-- {
-
-- // your stuff to do 
-- //Console.WriteLine("End");
-- HwndSource hwndSource = HwndSource.FromHwnd(hwnd);
-
-- var window = hwndSource.RootVisual as BasketRFQWindow;
-
-- window.ResetSizeToContent();
-
-- // 'set it back to false for the next resize/move
-- WindowWasResized = false;
-- }
-- }
-
-- return IntPtr.Zero;
-- }
-
-- Reference
+## Reference
 
 - WPF Playlist
 
@@ -359,7 +358,7 @@
 - XAML Anti-Patterns  
     https://www.codemag.com/article/1505101/XAML-Anti-Patterns-Code-Behind
 
-- Window Event Sequence  
+## Window Event Sequence  
     https://wpf.2000things.com/2012/07/30/613-window-event-sequence/
 - The full sequence of events fired for a Window object are as follows.
 - On application startup, if the Window is the application’s main window.  (Application events are also shown in the correct sequence).
@@ -438,7 +437,8 @@
 - LostKeyboardFocus – Window no longer has keyboard focus
 - MeasureOverride ArrangeOverride  
     http://ikeptwalking.com/wpf-measureoverride-arrangeoverride-explained/
-- Memory Leaks  
+
+## Memory Leaks  
     https://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/
 
 - Key Retention Paths  
@@ -457,7 +457,7 @@
 - Value Coersion  
     [http://drwpf.com/blog/category/wpf/](http://drwpf.com/blog/category/wpf/)
 
-- History
+## History
 
 - Older system was to use GDI/GDI+ & User32
 
