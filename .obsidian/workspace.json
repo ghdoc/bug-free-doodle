@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/All.md",
+                "file": "Git/Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/All.md",
+                "file": "Git/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/All.md",
+                "file": "Git/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/All.md"
+                "file": "Git/Commands.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "5f9315d204eee2a9",
   "lastOpenFiles": [
-    "dotnet/DevExpress.md",
     "Docker/All.md",
+    "Git/Commands.md",
+    "Git",
+    "dotnet/DevExpress.md",
     "Docker",
     "Design Patterns/Object Oriented Design.md",
     "dotnet/Untitled",

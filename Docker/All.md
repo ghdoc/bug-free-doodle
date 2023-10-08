@@ -90,8 +90,10 @@
 - docker info gives => Got permission denied while trying to connect to the Docker daemon socket at [unix:///var/run/docker.sock](unix:///var/run/docker.sock)  
     sudo usermod -a -G docker $USER
 - reboot system
+
 - docker: Cannot connect to the Docker daemon at [unix:///var/run/docker.sock](unix:///var/run/docker.sock). => redo commands from [how to setup docker inside wsl2 without docker desktop](https://workflowy.com/#/dd524c74c3c9) 
-- how to setup docker inside wsl2 without docker desktop
+
+## how to setup docker inside wsl2 without docker desktop
 
 - 1. complete steps in [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
 - 2. complete steps in [https://docs.docker.com/engine/install/linux-postinstall/](https://docs.docker.com/engine/install/linux-postinstall/)
