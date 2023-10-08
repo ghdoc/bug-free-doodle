@@ -90,6 +90,7 @@
 	 </Button.Template>
 </Button>
 
+
 ## MarkupExtension
 
 - Fill="{... property name}"
@@ -100,31 +101,30 @@
 - Control like a button can have only one child. So we use a layout manager like a Grid which knows how to layout multiple controls.
 - How to put any type of Content inside a button?  
     <Button Width="75" Height="24" Background="Red">
-- <Button.Template>
-- <Control.Template TargetType="Button">
-- <Rectange Fill="{TemplateBinding Background}" RadiusX="5" RadiusY="5" />
-- <TextBlock Text={TemplateBinding Content}" />
--   </Control.Template>
-- </Button.Template>
+		 <Button.Template>
+			 <Control.Template TargetType="Button">
+			 <Rectange Fill="{TemplateBinding Background}" RadiusX="5" RadiusY="5" />
+			 <TextBlock Text={TemplateBinding Content}" />
+			   </Control.Template>
+		 </Button.Template>
+		 ClickMe!
+	 </Button>
 
-- ClickMe!
-- </Button>
 - This will display a button with text ClickMe. However if you want to show something else, say an ellipse then you will replace ClickMe! with <Ellipse Fill="Red" Width="60" Height="14" />
 - This does not display anything as TextBlock is a primitive element which knows only how to display text. So we have a  special thing for this purpose called #ContentPresenter  
     <Button Width="75" Height="24" Background="Red">
-- <Button.Template>
-- <Control.Template TargetType="Button">
-- <Rectange Fill="{TemplateBinding Background}" RadiusX="5" RadiusY="5" />
-- <ContentPresenter Content={TemplateBinding Content}" RecognizerAccessKey="True"
-- HorizontalAlignment={TemplateBinding HorizontalContentAlignment}"
-- VerticalAlignment={TemplateBinding VerticalContentAlignment}" />
--   </Control.Template>
-- </Button.Template>
+		 <Button.Template>
+			 <Control.Template TargetType="Button">
+			 <Rectange Fill="{TemplateBinding Background}" RadiusX="5" RadiusY="5" />
+				 <ContentPresenter Content={TemplateBinding Content}" RecognizerAccessKey="True"
+				 HorizontalAlignment={TemplateBinding HorizontalContentAlignment}"
+				 VerticalAlignment={TemplateBinding VerticalContentAlignment}" />
+			   </Control.Template>
+		 </Button.Template>
+	 ClickMe!
+	 </Button>
 
-- ClickMe!
-- </Button>
-
-- Layout
+## Layout
 
 - Grid
 - Canvas

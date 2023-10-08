@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "840ef0aaac7e2ece",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "8cc94ffa2c169e77",
             "type": "leaf",
             "state": {
@@ -52,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,12 +174,12 @@
   "active": "a1bf233613e53083",
   "lastOpenFiles": [
     "dotnet/All.md",
-    "dotnet/CLR.md",
+    "Test GitHub Commits.md",
     "dotnet/WPF.md",
+    "dotnet/CLR.md",
     "dotnet/Memory.md",
     "dotnet/General.md",
     "dotnet/Q-Sharp.md",
-    "Test GitHub Commits.md",
     "dotnet"
   ]
 }

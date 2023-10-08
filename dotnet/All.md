@@ -1,9 +1,5 @@
 **.NET**
 
-- 
-
-- 
-
 - C#
 
 - History Of C# #read:bookmark  
