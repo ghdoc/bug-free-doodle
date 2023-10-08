@@ -1,0 +1,2 @@
+- Best Practices for Software Development #read:bookmark  
+    [https://opensource.com/article/17/5/30-best-practices-software-development-and-testing](https://opensource.com/article/17/5/30-best-practices-software-development-and-testing)

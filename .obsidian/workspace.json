@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dotnet/Untitled.md",
+                "file": "Algorithms DS/Reading.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24f8796490eaa00d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Patterns/**Object Oriented Design**.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dotnet/Untitled.md",
+                "file": "Design Patterns/**Object Oriented Design**.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dotnet/Untitled.md",
+                "file": "Design Patterns/**Object Oriented Design**.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dotnet/Untitled.md"
+                "file": "Design Patterns/**Object Oriented Design**.md"
               }
             }
           }
@@ -159,11 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f9315d204eee2a9",
+  "active": "24f8796490eaa00d",
   "lastOpenFiles": [
-    "dotnet/All.md",
-    "dotnet/Untitled.md",
+    "Architecture/Architecture.md",
+    "Design Patterns/**Object Oriented Design**.md",
+    "Design Patterns",
+    "Algorithms DS/Reading.md",
+    "Architecture",
     "dotnet/C-Sharp.md",
+    "Algorithms DS",
+    "dotnet/All.md",
+    "dotnet/How-to.md",
     "dotnet/WPF.md",
     "Test GitHub Commits.md",
     "dotnet/CLR.md",
