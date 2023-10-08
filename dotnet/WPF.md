@@ -491,7 +491,7 @@
 - Declarative user interface
 - Page based applications
 
-- Display
+## Display
 
 - WPF uses the _system_ DPI setting and not the DPI of your physical device. E.g. if you are displaying on a 100inch projector, you will be standing several feet away and expect a jumbo sized version of controls.
 - A WPF window and all the elements inside are measured using _device independent units_
@@ -513,7 +513,7 @@
 
 - Always use Vector graphics image rather than a bitmap. Vector graphics are defined as a set of shapes and as such they can be scaled to any size.
 
-- Architecture
+## Architecture
 
 - Multilayer architecture
 
