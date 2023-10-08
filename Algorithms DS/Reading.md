@@ -19,7 +19,8 @@
 	- Overflow
 	- Binary Tree
 	- Binary Search Tree
-
+	- Circular buffer  
+	    https://en.wikipedia.org/wiki/Circular_buffer
 - Techniques
 	- ASCII
 	- Reverse Structure

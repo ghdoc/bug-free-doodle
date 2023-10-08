@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/CPP.md",
+                "file": "Algorithms DS/Reading.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP/CPP.md",
+                "file": "Algorithms DS/Reading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP/CPP.md",
+                "file": "Algorithms DS/Reading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP/CPP.md"
+                "file": "Algorithms DS/Reading.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "5f9315d204eee2a9",
   "lastOpenFiles": [
-    "Design Patterns/Object Oriented Design.md",
     "CPP/CPP.md",
+    "Design Patterns/Object Oriented Design.md",
     "CPP",
     "Algorithms DS/Reading.md",
     "Architecture/Architecture.md",
