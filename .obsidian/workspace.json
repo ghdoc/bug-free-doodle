@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/GNU Make/Make.md",
+                "file": "Python/Main.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP/GNU Make/Make.md",
+                "file": "Python/Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP/GNU Make/Make.md",
+                "file": "Python/Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP/GNU Make/Make.md"
+                "file": "Python/Main.md"
               }
             }
           }
@@ -161,8 +161,13 @@
   },
   "active": "5f9315d204eee2a9",
   "lastOpenFiles": [
-    "Git/Commands.md",
+    "Windows/Powershell/Getting Started.md",
+    "Python/Main.md",
+    "Python",
     "CPP/GNU Make/Make.md",
+    "Windows/Powershell",
+    "Windows",
+    "Git/Commands.md",
     "CPP/GNU Make",
     "Docker/All.md",
     "Git",
@@ -178,7 +183,6 @@
     "Design Patterns",
     "Architecture",
     "dotnet/C-Sharp.md",
-    "Algorithms DS",
     "dotnet/All.md",
     "dotnet/How-to.md",
     "dotnet/WPF.md",
@@ -186,7 +190,6 @@
     "dotnet/CLR.md",
     "dotnet/Memory.md",
     "dotnet/General.md",
-    "dotnet/Q-Sharp.md",
-    "dotnet"
+    "dotnet/Q-Sharp.md"
   ]
 }

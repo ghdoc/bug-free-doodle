@@ -384,20 +384,15 @@
 - clean:
 -         rm $(TARGET) $(OBJ1)
 
-- Go to [Module 09](https://workflowy.com/#/e6df91aee5e4) 
 
-- Go to [Module 10](https://workflowy.com/#/8788357d51a2) 
+## Module 10
 
-- Module 10
-
-- Things To Remember
+### Things To Remember
 
 - #todo read about optimization flags
 
 - Module 01  
     What happens behind the scenes when make executes and compilation results in an output binary? [Things To Remember](https://workflowy.com/#/455684c23dc3) 
-
-- Go to [Module 10](https://workflowy.com/#/8788357d51a2) 
 
 - What about passing a MACRO from outside the program
 - Say we have a code like below macro.cpp:  
@@ -448,7 +443,7 @@
 -         echo $(var1)
 - Go to [Module 11](https://workflowy.com/#/6bda2ee4872f) 
 
-- Module 11
+## Module 11
 
 - Makefile Template
 - How to add cross compilation feature
@@ -606,6 +601,6 @@
 
 - Go to [Module 12](https://workflowy.com/#/2ea9b500ff42) 
 
-- Module 12
+## Module 12
 
 - Go to [Module 12](https://workflowy.com/#/2ea9b500ff42)
