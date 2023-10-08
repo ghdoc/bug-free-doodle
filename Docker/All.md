@@ -84,8 +84,8 @@
 
 - adding ssh key in wsl
 
-- exec ssh-agent bash
-- ssh-add => this adds the private key that was previously created using ssh-agent
+	- exec ssh-agent bash
+	- ssh-add => this adds the private key that was previously created using ssh-agent
 
 - docker info gives => Got permission denied while trying to connect to the Docker daemon socket at [unix:///var/run/docker.sock](unix:///var/run/docker.sock)  
     sudo usermod -a -G docker $USER
