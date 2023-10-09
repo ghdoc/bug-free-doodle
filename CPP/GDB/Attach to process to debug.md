@@ -34,3 +34,10 @@ $ gdb executablefile
     
 3. **Examining data** When your program is stopped you can examine or set the value of any variable. To examine a variable, type "print [variablename]". To set the value of a variable, type "set [variablename]=[valuetoset]".
 
+## Save gdb History
+
+[Source](https://www.ece.villanova.edu/VECR/doc/gdb/Command-History.html#:~:text=Set%20the%20name%20of%20the,command%20editing%20characters%20listed%20below.)
+(gdb) set history filename /mnt/c/wsl/OS/flexCentOS/flexsys/gdb_history
+(gdb) set history save
+(gdb) set history save on
+
