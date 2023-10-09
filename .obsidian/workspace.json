@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VIM/SPF13.md",
+                "file": "CPP/GDB/Attach to process to debug.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test GitHub Commits.md",
+                "file": "CPP/GDB/Attach to process to debug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test GitHub Commits.md",
+                "file": "CPP/GDB/Attach to process to debug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test GitHub Commits.md"
+                "file": "CPP/GDB/Attach to process to debug.md"
               }
             }
           }
@@ -171,8 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2a0faf1a46af359",
+  "active": "6981b58b05c2d661",
   "lastOpenFiles": [
+    "Test GitHub Commits.md",
+    "CPP/GDB/Attach to process to debug.md",
+    "CPP/GDB",
     "System Design/Main.md",
     "VIM/SPF13.md",
     "VIM",
@@ -194,13 +197,11 @@
     "Design Patterns/Bookmarks.md",
     "Algorithms DS/Reading.md",
     "CPP/CPP.md",
-    "CPP",
     "Architecture/Architecture.md",
     "dotnet/C-Sharp.md",
     "dotnet/All.md",
     "dotnet/How-to.md",
     "dotnet/WPF.md",
-    "Test GitHub Commits.md",
     "dotnet/CLR.md",
     "dotnet/Memory.md",
     "dotnet/General.md",
