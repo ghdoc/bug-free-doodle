@@ -14,6 +14,13 @@ $ gdb executablefile
 (gdb) r arg1 arg2 arg3
 ```
 
+## Start binary with args
+To run GDB with arguments in the terminal, use the --args parameter.
+
+```
+gdb --args name arg1 arg2 arg3
+```
+
 ## Add breakpoints
 [gdb QuickStart](https://web.eecs.umich.edu/~sugih/pointers/gdbQS.html#:~:text=Type%20%22gdb%20%5Bfilename%5D%22,them%20with%20%22set%20args%22.)
 
