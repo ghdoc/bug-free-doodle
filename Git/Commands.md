@@ -89,5 +89,5 @@
     git branch <branch name> <commit hash>
 ## Cherry-pick from one repo to another  
     --> Below example is for cherry picking from "flexcore" to "ssoms"
-- git fetch [git@git.flextrade.com](mailto:git@git.flextrade.com):flexcore/flexcore.git master && git cherry-pick af31a16e2d4a4b40bdc6fd88d98579fce29e20a1
+- git fetch git@git.flextrade.com:flexcore/flexcore.git master && git cherry-pick af31a16e2d4a4b40bdc6fd88d98579fce29e20a1
 - Once cherry pick is done, "git add" is run automatically so you won't see changes in "git status".
