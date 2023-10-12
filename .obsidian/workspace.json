@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Commands.md",
+                "file": "CPP/CPP.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cherry",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Commands.md",
+                "file": "CPP/CPP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Commands.md",
+                "file": "CPP/CPP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Commands.md"
+                "file": "CPP/CPP.md"
               }
             }
           }
@@ -174,6 +173,7 @@
   },
   "active": "6981b58b05c2d661",
   "lastOpenFiles": [
+    "Git/Commands.md",
     "CPP/GDB/Attach to process to debug.md",
     "Test GitHub Commits.md",
     "CPP/GDB",
@@ -187,7 +187,6 @@
     "CPP/GNU Make/Make.md",
     "Windows/Powershell",
     "Windows",
-    "Git/Commands.md",
     "CPP/GNU Make",
     "Docker/All.md",
     "Git",
