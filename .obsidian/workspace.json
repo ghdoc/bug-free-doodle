@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/CPP.md",
+                "file": "Linux/File.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP/CPP.md",
+                "file": "Linux/File.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP/CPP.md",
+                "file": "Linux/File.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP/CPP.md"
+                "file": "Linux/File.md"
               }
             }
           }
@@ -173,6 +173,10 @@
   },
   "active": "6981b58b05c2d661",
   "lastOpenFiles": [
+    "Docker/All.md",
+    "Linux/File.md",
+    "Linux",
+    "CPP/CPP.md",
     "Git/Commands.md",
     "CPP/GDB/Attach to process to debug.md",
     "Test GitHub Commits.md",
@@ -188,15 +192,12 @@
     "Windows/Powershell",
     "Windows",
     "CPP/GNU Make",
-    "Docker/All.md",
     "Git",
     "dotnet/DevExpress.md",
     "Docker",
     "Design Patterns/Object Oriented Design.md",
-    "dotnet/Untitled",
     "Design Patterns/Bookmarks.md",
     "Algorithms DS/Reading.md",
-    "CPP/CPP.md",
     "Architecture/Architecture.md",
     "dotnet/C-Sharp.md",
     "dotnet/All.md",
