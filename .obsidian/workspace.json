@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "force",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -171,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6981b58b05c2d661",
+  "active": "f1783a1a16bb3763",
   "lastOpenFiles": [
     "Docker/All.md",
     "Linux/File.md",
