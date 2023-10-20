@@ -42,19 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6efd49c8e0694e7f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6efd49c8e0694e7f",
+  "active": "6981b58b05c2d661",
   "lastOpenFiles": [
     "Docker/All.md",
     "Linux/File.md",
